@@ -33,7 +33,7 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   adapter: PrismaAdapter(prisma),
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.SECRET,
   theme: {
     colorScheme: "light",
   },
